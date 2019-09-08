@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sample React that consumes Rest API for a Quote and displays it.
+
+## Installation
+Application requires backend service (that provides Quotes) to work correctly.
+Mocked Service could be used. 
+Example API response: {"quote":"That grief is light which can take counsel.","author":"Lucius Annaeus Seneca"}
+
+
+Service Credentials must be stored in .env file placed in this App root directory
+REACT_APP_QUOTES_API_URL=ENDPOINT_URL
+REACT_APP_QUOTES_API_KEY=PASSWORD
 
 ## Available Scripts
 
